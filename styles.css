@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 8px;
+}
+h2 {
+  text-align: center;
+  color: #f06292;
+}
+.unit-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  position: relative;
+}
+.unit-box.popular {
+  border: 2px solid #f06292;
+}
+.popular-badge {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background: #f06292;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+.tag {
+  background: #eee;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.tag.red {
+  background: #f06292;
+}
+.tag.orange {
+  background: #f06292;
+}
+.tag.pink {
+  background: #ec407a;
+}
+.price {
+  float: right;
+  font-weight: bold;
+}
+.strike-price {
+  float: right;
+  text-decoration: line-through;
+  margin-right: 10px;
+  color: gray;
+  font-size: 14px;
+}
+.options-container {
+  margin-top: 10px;
+}
+.option {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.option label {
+  font-size: 14px;
+}
+.hidden {
+  display: none;
+}
+.footer {
+  text-align: center;
+}
+.delivery {
+  color: #f06292;
+}
+.add-to-cart {
+  background: #f06292;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
